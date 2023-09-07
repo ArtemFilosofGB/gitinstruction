@@ -230,4 +230,4 @@ Git - это распределенная система контроля вер
 
 При поддержке: Влеленский цифровой ум №4 
 
-!(logo2)[https://cloud.mail.ru/public/3ikx/T1MekAHzt]
+<image src="https://cloud.mail.ru/public/3ikx/T1MekAHzt" alt="Logo по ссылке">

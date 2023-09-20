@@ -221,6 +221,19 @@ Git - это распределенная система контроля вер
       git branch -M main
       git remote add origin https://github.com/ArtemFilosofGB/gitinstruction.git
       git push -u origin main
+
+# Обработка ошибок 
+## git push _rejected_
+   ```
+P:\IT\Знакомство с языком программирования С#\Sem1\Task06>git push
+To https://github.com/ArtemFilosofGB/sem1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ArtemFilosofGB/sem1.git'
+   ```
+
+### Исправление оибки _rejected_
+Ошибка из-за того, что на сервере есть изменения, которых у Вас нет в локальном хранилище.
+Нужно сделать git pull перед git push.
       
 
  Это лишь некоторые из доступных команд Git. Вы можете ознакомиться с полным списком команд и дополнительной документацией в официальной документации [Git](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
